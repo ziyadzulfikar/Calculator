@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bodyWhole">
+        <div class="bodyCalc">
+            <div class="CalcScreen">
+                <input id="inputBar" type="text" class="textBox" disabled>
+            </div>
+            <div class="numOp">
+                <div class="first">
+                    <div class="num" onclick="numClear()"><h5 class="numAlign">C</h5></div>
+                </div>
+                <div class="second">
+                    <div class="num" onclick="num(7)"><h5 class="numAlign">7</h5></div>
+                    <div class="num" onclick="num(8)"><h5 class="numAlign">8</h5></div>
+                    <div class="num" onclick="num(9)"><h5 class="numAlign">9</h5></div>
+                    <div class="num" onclick="num('/')"><h5 class="numAlign">/</h5></div>
+                </div>
+                <div class="second">
+                    <div class="num" onclick="num(4)"><h5 class="numAlign">4</h5></div>
+                    <div class="num" onclick="num(5)"><h5 class="numAlign">5</h5></div>
+                    <div class="num" onclick="num(6)"><h5 class="numAlign">6</h5></div>
+                    <div class="num" onclick="num('x')"><h5 class="numAlign">x</h5></div>
+                </div>
+                <div class="second">
+                    <div class="num" onclick="num(1)"><h5 class="numAlign">1</h5></div>
+                    <div class="num" onclick="num(2)"><h5 class="numAlign">2</h5></div>
+                    <div class="num" onclick="num(3)"><h5 class="numAlign">3</h5></div>
+                    <div class="num" onclick="num('-')"><h5 class="numAlign">-</h5></div>
+                </div>
+                <div class="second">
+                    <div class="num" onclick="num('.')"><h5 class="numAlign">.</h5></div>
+                    <div class="num" onclick="num(0)"><h5 class="numAlign">0</h5></div>
+                    <div class="num" onclick="numEqual()"><h5 class="numAlign">=</h5></div>
+                    <div class="num" onclick="num('+')"><h5 class="numAlign">+</h5></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
